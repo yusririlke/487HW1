@@ -1,0 +1,5 @@
+CREATE TABLE RECORD(
+	pos int primary key auto_increment,
+    SID int,
+    time_stamp timestamp default current_timestamp
+	status int);
